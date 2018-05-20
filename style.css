@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    font-size: 11pt;
+}
+h1 {
+    font-size: 22pt;
+    margin: 0;  
+}
+h2 {
+    font-size: 14pt;
+    margin: 0;
+} 
+aside {
+    width: 50%;
+}
+.left-border {
+    background-color: aqua;
+}
+.right-border {
+    background-color: antiquewhite;
+}
+.container-static {
+    min-width: 700px;
+    max-width: 700px;
+}   
+main, footer {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+}
+.authors-navbar, .rights-info {
+    width: 30%;
+}
+.block-content {
+    width: 50%
+}
+.daily-advice {
+    width: 20%;
+}
+.footer-menu {
+    width: 70%;
+}
+ul li {
+    padding: 0 20px 0 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+ul li:hover {
+    background-color: black;
+    color: white;
+}
+.rights-info, .footer-menu, .daily-advice {
+    text-align: center;
+}
+.title, .authors-navbar, .block-content {
+    text-align: left;
+}
