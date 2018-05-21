@@ -36,16 +36,16 @@ main, footer {
     display: flex;
 }
 .authors-navbar, .rights-info {
-    width: 25%;
+    width: 30%;
 }
 .block-content {
     width: 50%
 }
 .daily-advice {
-    width: 25%;
+    width: 20%;
 }
 .footer-menu {
-    width: 75%;
+    width: 70%;
 }
 ul li {
     padding: 0 20px 0 10px;
