@@ -67,7 +67,7 @@ ul li:hover {
         flex-direction: column;
     }
     aside {
-        width: 100%;
+        width: 700px;
         height: 150px;
     }
 }
